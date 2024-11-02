@@ -32,7 +32,7 @@ nav .hamburger {
     cursor: pointer;
     font-size: 30px;
     padding: 10px;
-    background-color: #f8f8f8; /* Optional: background color */
+    background-color: #110f0f; /* Optional: background color */
 }
 
 nav .nav-links {
@@ -148,6 +148,13 @@ button:active,
     margin-top: 10px;
 }
 
+/* Responsive iframe */
+.responsive-iframe {
+    width: 100%; /* Full width */
+    height: 600px; /* Default height */
+    border: none; /* Remove border */
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -188,5 +195,10 @@ footer {
     }
     nav .hamburger {
         display: block; /* Show hamburger menu on mobile */
+    }
+
+    /* Responsive iframe adjustments */
+    .responsive-iframe {
+        height: auto; /* Adjust height to auto on smaller screens */
     }
 }
